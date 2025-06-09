@@ -1,6 +1,6 @@
 # 🚀 Mini Project : Diabetes Detection using XGBoost, Neural Networks, and Logistic Regression : 
 
-This project aims to detect the likelihood of diabetes in individuals using machine learning models, specifically **XGBoost** and **Artificial Neural Networks (ANNs)**. The dataset used is the well-known **Pima Indians Diabetes Dataset**.
+This project aims to detect the likelihood of diabetes in individuals using machine learning models, specifically **XGBoost** and **Artificial Neural Networks (ANNs)** and **Logistic regression**. The dataset used is the well-known **Pima Indians Diabetes Dataset**.
 
 ## 📊 Dataset Description
 
