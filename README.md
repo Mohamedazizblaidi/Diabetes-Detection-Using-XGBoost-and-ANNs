@@ -35,14 +35,19 @@ This project aims to detect the likelihood of diabetes in individuals using mach
    - Accuracy, Confusion Matrix, and Classification Reports used.
    - Compared both models for robustness.
 
-## 🚀 Results
+## 🚀 Results : 
 
 - **XGBoost Accuracy:** ~79%
 - **ANN Accuracy:** ~78%
 - Both models showed promising predictive capabilities, with XGBoost slightly outperforming ANN.
 
-## 📈 Visualization
+## 📈 Visualization : 
 
 - Correlation Heatmaps
 - Distribution plots for target variable
 - Loss and Accuracy Curves for ANN
+
+## Run the notebook : 
+
+jupyter notebook "Diabetes Detection Using XGBoost and ANNs.ipynb"
+
