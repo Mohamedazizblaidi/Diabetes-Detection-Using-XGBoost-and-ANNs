@@ -2,11 +2,24 @@
 
 This project aims to detect the likelihood of diabetes in individuals using machine learning models, specifically **XGBoost** and **Artificial Neural Networks (ANNs)**. The dataset used is the well-known **Pima Indians Diabetes Dataset**.
 
-## 📊 Dataset
+## 📊 Dataset Description
 
+This dataset is used to predict whether or not a patient has diabetes, based on given features/diagnostic measurements.
 - **Source:** [Pima Indians Diabetes Dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
-- **Attributes:** 8 features including Glucose, BMI, Age, etc.
-- **Target:** Outcome (0 = No Diabetes, 1 = Diabetes)
+- Only female patients are considered, all at least 21 years old, of Pima Indian heritage.
+
+### Input Features:
+- **Pregnancies**: Number of times pregnant
+- **GlucosePlasma**: Glucose concentration measured 2 hours after an oral glucose tolerance test
+- **BloodPressure**: Diastolic blood pressure (mm Hg)
+- **Skin**: Triceps skin fold thickness (mm)
+- **Insulin**: 2-Hour serum insulin (mu U/ml)
+- **BMI**: Body Mass Index (weight in kg / (height in m)^2)
+- **DiabetesPedigreeFunction**: Diabetes pedigree function (genetic predisposition)
+- **Age**: Age in years
+
+### Output:
+- **Diabetes** status: 0 (no diabetes) or 1 (diabetes)
 
 ## 🛠️ Technologies Used
 
